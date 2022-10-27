@@ -1,0 +1,3 @@
+# add config.env and node_modules to .dockerignore
+config.env
+node_modules/

@@ -1,0 +1,9 @@
+<p>THIS IS ALL NOTES</p>
+<ul class="container">
+    <li class="note" *ngFor="let note of notes">
+        {{note.title}} <button (click)="showBody(note)">Show Body</button>
+        <button (click)="removeNote(note._id)">delete</button>
+        {{note.date}}
+    </li>
+</ul>
+<app-note-by-id *ngIf="isopen" [note]="currentNote"></app-note-by-id>

@@ -1,0 +1,8 @@
+<div class="one_note">
+    <div> TITLE: {{note.title}} </div>
+    <div>
+        <input type="text" #titleInput value="{{note.title}}">
+        <textarea cols=60 rows="20" #noteInput>{{note.text}}</textarea>
+        <button (click)="updateNote(titleInput.value, noteInput.value)"> SAVE</button>
+    </div>
+</div>

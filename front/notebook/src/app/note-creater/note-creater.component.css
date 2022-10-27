@@ -1,0 +1,12 @@
+.note-creater{
+    width: 30%;
+    height: 250%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #86fed8;
+    /* in the right side of the screen */
+    margin-left: 70%;
+    margin-top: -22%;
+}

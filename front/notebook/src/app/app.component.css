@@ -1,0 +1,11 @@
+/* render the title class as a block element black on white square and set in the center */
+.title {
+  display: block;
+  background-color: rgb(38, 204, 193);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border: 1px solid rgb(0, 94, 255);
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 20%;
+}

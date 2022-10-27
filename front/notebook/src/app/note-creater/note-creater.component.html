@@ -1,0 +1,5 @@
+<div class="note-creater">
+    <input style="width:250px" type="text" placeholder="Create a title" #titleInput>
+    <textarea cols="55" rows="20" placeholder="Create a note" #noteInput></textarea>
+    <button (click)="onSubmit(titleInput.value, noteInput.value)">Create Note</button>
+</div>
